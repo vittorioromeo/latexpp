@@ -32,3 +32,7 @@ Result:
 \end{minted}
 ```
 
+---
+
+Real-life example: [veeForum/latex](https://github.com/SuperV1234/veeForum/tree/master/latex)
+
