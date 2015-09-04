@@ -325,3 +325,5 @@ int main(int argc, char* argv[])
 }
 
 // TODO: stack for nested macros
+// TODO: \emph shortcut, maybe !* something something *!
+// TODO: \itemize shortcut, maybe !i* something something *i!
