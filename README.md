@@ -11,7 +11,7 @@ C++14 simple LaTeX preprocessor intended for personal use.
 
 % Example: bash highlighting with minted
 % Definition:
-%!group(bash)(\begin{minted}[mathescape, linenos, numbersep=5pt, gobble=2, frame=lines, framesep=2mm, fontsize=\footnotesize]{bash})(\end{minted})
+%!group(bash)(\begin{minted}[mathescape, linenos]{bash})(\end{minted})
 
 % Usage:
 !!(bash)
@@ -19,5 +19,16 @@ C++14 simple LaTeX preprocessor intended for personal use.
     #!/bin/bash
     cd /home/hello/world
 !!}
+```
+
+Result:
+
+```
+\begin{minted}[mathescape, linenos]{bash}
+    #!/bin/bash
+
+    latexpp ./thesis.lpp > ./thesis.tex
+    pdflatex -shell-escape ./thesis.tex && chromium ./thesis.pdf
+\end{minted}
 ```
 
