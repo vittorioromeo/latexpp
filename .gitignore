@@ -1,3 +1,4 @@
+_RELEASE/
 callgrind.*
 CMakeLists.txt.user.*
 build/
